@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  .gradient-01 {
+    background-position: center;
+    background-size: contain;
+    border-radius: 10px;
+    text-align: center;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+  }
+  
+  .hero-gradient {
+    background: #DFD3BF;
+  }
+  
+  .gradient-02 {
+    position: absolute;
+    width: 200px;
+    height: 438px;
+    top: 0px;
+    right: 0px;
+  
+    background: #DFD3BF;}
+  
+  .glassmorphism {
+    background: #DFD3BF;
+    box-shadow: 0 8px 32px 0 #DFD3BF;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid #DFD3BF;
+  }
+  
+  .gradient-03 {
+    position: absolute;
+    width: 404px;
+    height: 800px;
+    left: 20%;
+    top: 5%;
+  
+    background: #DFD3BF;
+  }
+  
+  .gradient-04 {
+    position: absolute;
+    width: 304px;
+    height: 100vh;
+    left: 30%;
+    top: 10%;
+  
+    background: rgba(45, 72, 152, 0.75);
+    filter: blur(200px);
+    transform: rotate(-53.13deg);
+  }
+  
+  
+  .feedback-gradient {
+    position: absolute;
+    width: 200px;
+    height: 316px;
+    left: 0px;
+    top: 0px;
+  
+    background: #DFD3BF;
+  }
+  
+  .footer-gradient {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 37%;
+    bottom: 0;
+  
+    background: #DFD3BF;
+  }
